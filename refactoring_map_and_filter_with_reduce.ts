@@ -1,6 +1,6 @@
 const numbers: number[] = [1, 2, 3, 4, 5];
 
-// Using separate map and filter loops
+// Using separate map and filter loops to filter odd numbers then double them
 const filteredNumbers: number[] = numbers.filter((num: number) => num % 2 !== 0);
 const doubledNumbers: number[] = filteredNumbers.map((num: number) => num * 2);
 
